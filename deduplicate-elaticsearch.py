@@ -15,7 +15,7 @@ dict_of_duplicate_docs = {}
 
 # The following line defines the fields that will be
 # used to determine if a document is a duplicate
-keys_to_include_in_hash = ["CAC", "FTSE", "SMI"]
+keys_to_include_in_hash = ["MFR_NAME", "MFR_DESCRIPTION", "MFR_PART_NO"]
 
 
 # Process documents returned by the current search/scroll
